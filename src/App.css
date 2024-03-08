@@ -1,0 +1,20 @@
+.ant-tabs-nav-list {
+  width: 100%;
+}
+.ant-tabs-tab {
+  width: 50%;
+  margin: 0px;
+}
+.ant-tabs-tab-active {
+  margin: 0px;
+}
+.ant-tabs-tab-btn {
+  width: 100%;
+}
+.ant-tabs-tab-btn > div {
+  width: 100%;
+}
+
+.ant-image-preview-operations, .ant-image-preview-close {
+    background-color: rgba(0, 0, 0, 0.6);
+}

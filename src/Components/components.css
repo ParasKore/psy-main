@@ -1,0 +1,33 @@
+.imgContainer {
+  display: flex;
+  overflow-x: auto;
+}
+
+.imgContainer {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.postImg {
+  margin-right: 10px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none !important;
+  background: #b6cc37;
+  border-radius: 20px;
+  height: 5px;
+  width: 100%;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  background: #d1ea3e;
+  border-radius: 50%;
+  border: solid 2px #7a8b17;
+  height: 14px;
+  width: 14px;
+}
+
+h1 {
+  width: 100%;
+}

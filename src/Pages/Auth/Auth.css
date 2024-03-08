@@ -1,0 +1,51 @@
+#button {
+  background: rgb(182, 204, 55);
+}
+
+#icon1 {
+  position: fixed;
+  margin-top: 1.5%;
+}
+#icon2 {
+  position: fixed;
+  margin-top: 1.5%;
+}
+#btnlogin {
+  background: rgb(182, 204, 55);
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 1025px) {
+  #footer {
+    margin-bottom: 3%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #login-container {
+    width: 400px;
+  }
+}
+
+#sign-up-bg {
+  background-image: url("../../Assets/images/login-bg.jpg");
+}
+
+.ant-select-selector {
+  border-color: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.ant-select-selector:focus{
+  border-color: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.ant-select-selection-placeholder{
+  font-size: 17px !important;
+  color: #9ca3af !important;
+  font-family: 'Poppins';
+}
